@@ -35,6 +35,7 @@ Example 2:
 { name: “Meeting 2”, duration: 4, type: :offsite }
 }
 ```
+```bash
 No, can’t fit.
 ```
 Example 3:
