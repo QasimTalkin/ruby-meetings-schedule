@@ -59,5 +59,5 @@ Yes, can fit. One possible solution would be:
 To run the script, run the following command in the terminal:
 
 ```bash
-ruby meetings.rb
+ruby script.rb
 ```
