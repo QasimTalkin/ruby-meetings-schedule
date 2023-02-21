@@ -35,7 +35,7 @@ class MeetingScheduler
     @meetings.each do |meeting|
       @total_time += (meeting[:type] == :onsite ? meeting[:duration] : (meeting[:duration] + 0.5))
 
-      if (@off_site_meetings.empty? && @total_time > 8) || (!@off_site_meetings.empty? && @total_time > 8)
+      if (@off_site_meetings.empty? && @total_time > 8) || (!@off_site_meetings.empty? && @total_time >= 8)
         puts "this schedule does not fit\n\n"
         return
       end
